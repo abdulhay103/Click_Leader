@@ -1,0 +1,156 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+/*========================HOME_SECTION_1================================*/
+#homeSection1{
+	background: url(../img/banner-img1.jpg) no-repeat center top;
+	background-size: cover;
+	min-height: 100vh;
+}
+
+.logo img{
+	padding-left: 28%;
+}
+
+.top-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-left: 10%;
+}
+
+.top-menu li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.top-menu li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+/*.menu{
+	position: fixed;
+}
+*/
+.slogan{
+	text-align: center;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 14%;
+}
+.slogan h1{
+	font-size: 3vw;
+	
+}
+
+.mouse{
+	text-align: center;
+	margin-top: 10%;
+}
+.mouse p{
+	text-transform: uppercase;
+	color: #fff;
+}
+
+
+/*========================HOME_SECTION_2================================*/
+
+.computer{
+	text-align: center;
+	color: #000;
+
+}
+
+.computer img{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 100%;
+}
+.computer h2{
+	font-size: 25px; 
+}
+.computer h3{
+	margin-top: -16px;
+	height: 45px;
+	width: 2px;
+	background-color: #B4D7F9;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.computer pre{
+	font-family: 'Questrial', sans-serif;
+	font-size: 25px;
+	line-height: 1.5;
+}
+
+
+/*========================HOME_SECTION_3================================*/
+
+#homeSection3{
+	background: url(../img/banner2.jpg) no-repeat center;
+	background-size: cover;
+	min-height: 500px;
+}
+
+
+.rounding{
+	text-align: center;
+	color: #000;
+	margin-top: 100px;
+
+}
+
+.rounding img{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%
+}
+
+
+
+
+/*========================HOME_SECTION_4================================*/
+
+#homeSection4{
+	background: #067CEB;
+	margin-top: 0;
+	/*min-height: 1150px;*/
+}
+
+.work{
+	color: #fff;
+	text-align: center;
+
+
+}
+.work h2{
+	    margin-top: 0px;
+    	padding-top: 40px;
+    	
+}
+
+.logo-holder{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+
+
+
+/*========================HOME_SECTION_5================================*/
+
+
+#homeSection5{
+	background: url(../img/banner4.jpg) no-repeat center;
+	background-size: cover;
+	min-height: 500px;
+}
